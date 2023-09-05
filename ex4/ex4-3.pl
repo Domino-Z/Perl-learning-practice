@@ -5,20 +5,20 @@ use feature 'say';  # 启用 say 函数
 
 sub average {
     if (@_ == 0) {return};
-    my $count = @_;
-    my $sum = total(@_);
-    $sum/$count;
+    my $count = @_; # 根据上下文，这里是@_的长度
+    my $sum = total(@_);  # 调用total计算@_中数字的和
+    $sum/$count; # 得到平均数
 }
 
 sub above_average {
-    my $average = average(@_);
+    my $average = average(@_); # 传参调用average
     my @list;
     foreach my $element (@_) {
         if ($element > $average){
-            push @list, $element;
+            push @list, $element; # 将大于平均值的数记录至@list
         }
     }
-    @list
+    @list # retrun @list
 }
 
 sub total {
