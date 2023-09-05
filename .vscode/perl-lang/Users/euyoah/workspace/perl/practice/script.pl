@@ -1,0 +1,1 @@
+{"version":5,"vars":[{"kind":13,"containerName":null,"name":"@people","line":2},{"line":5,"name":"@sorted","containerName":null,"kind":13},{"line":5,"name":"@people","kind":13,"containerName":null},{"kind":13,"containerName":null,"name":"$number","line":8},{"name":"@people","line":8,"kind":13,"containerName":null},{"line":11,"name":"@lines","kind":13,"containerName":null}]}
