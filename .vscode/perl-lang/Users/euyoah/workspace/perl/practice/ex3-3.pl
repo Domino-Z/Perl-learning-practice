@@ -1,1 +1,0 @@
-{"vars":[{"kind":13,"containerName":null,"line":1,"name":"@names"},{"name":"$name","line":7,"containerName":null,"kind":13},{"line":7,"name":"@names","containerName":null,"kind":13}],"version":5}
