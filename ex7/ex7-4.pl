@@ -3,9 +3,7 @@ use strict;
 use warnings;
 
 while (my $line = <STDIN>) {
-    if ($line =~ /fred/){
+    if ($line =~ /^[A-Z]+/) {
         print $line;
     }
 }
-
-# perl ex7-1.pl < story.txt
