@@ -1,11 +1,11 @@
 #!/usr/bin/perl
-## Copyright (C) 2023 by Howe
 
 my %do_these;
 foreach (@ARGV) {
     $do_these{$_} = 1;
 }
 
+# <>从ARGV读来的
 while (<>) {
     if (/\A## Copyright/){
         delete $do_these{$ARGV};
