@@ -1,0 +1,5 @@
+If you don’t have the Unix date command, here’s a pure Perl version that can fake it for you. Name it date and put it somewhere in your path:
+
+my $date = localtime;
+
+print "$date\n";
